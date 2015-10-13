@@ -213,7 +213,7 @@ static const enum UIViewAnimationOptions options = UIViewAnimationOptionCurveEas
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
-    return self.supportedInterfaceOrientations;
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 // iOS6 support
